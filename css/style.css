@@ -702,6 +702,18 @@ video {
   background-image: url('../images/logo-light-mode.svg');
 }
 
+.bg-curvy-light-mode {
+  background-image: url('../images/bg-curvy-light-mode.svg');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -785,6 +797,10 @@ video {
 
 .dark\:bg-logo-dark-mode:is(.dark *) {
   background-image: url('../images/logo-dark-mode.svg');
+}
+
+.dark\:bg-curvy-dark-mode:is(.dark *) {
+  background-image: url('../images/bg-curvy-dark-mode.svg');
 }
 
 .dark\:text-white:is(.dark *) {
